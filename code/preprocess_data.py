@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 def get_kinematics(x, y):
-	dx = x - x.shift()
+	dx = q - q.shift()
 	dy = y - y.shift()
 	d2x = dx - dx.shift()
 	d2y = dy - dy.shift()
