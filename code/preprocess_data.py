@@ -2,8 +2,13 @@ import numpy as np
 import pandas as pd
 
 def get_kinematics(x, y):
+<<<<<<< HEAD
 	dx = q - q.shift()
 	dy = z - z.shift()
+=======
+	dx = x - x.shift()
+	dy = y - y.shift()
+>>>>>>> parent of a529105... change x to q
 	d2x = dx - dx.shift()
 	d2y = dy - dy.shift()
 
